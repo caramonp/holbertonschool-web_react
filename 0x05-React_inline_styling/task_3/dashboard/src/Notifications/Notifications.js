@@ -100,6 +100,14 @@ const styles = StyleSheet.create({
 		padding: '6px 12px',
 		position: 'relative',
 		marginTop: '12px',
+		fontSize: '20px',
+		'@media (max-width: 900px)': {
+			position: 'absolute !important',
+			top: '0',
+			right: '0',
+			left: '0',
+			background: 'white',
+		},
 	},
 	menuItem: {
 		textAlign: 'right',

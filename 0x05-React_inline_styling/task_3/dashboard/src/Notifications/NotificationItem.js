@@ -43,9 +43,21 @@ class NotificationItem extends PureComponent {
 const styles = StyleSheet.create({
 	defaultNotif: {
 		color: 'blue',
+		padding: '10px 8px',
+		'@media (max-width: 900px)': {
+			width: '100%',
+			fontSize: '20px',
+			borderBottom: '1px solid black',
+		},
 	},
 	urgentNotif: {
 		color: 'red',
+		padding: '10px 8px',
+		'@media (max-width: 900px)': {
+			width: '100%',
+			fontSize: '20px',
+			borderBottom: '1px solid black',
+		},
 	},
 });
 
