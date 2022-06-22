@@ -1,12 +1,5 @@
-import getImmutableObject from './1-map';
+import { Map } from 'immutable';
 
-let obj = {
-	fear: true,
-	smell: -1033575916.9145899,
-	wall: false,
-	thing: -914767132
-};
+const getImmutableObject = (object) => Map(object);
 
-let r = getImmutableObject(obj);
-
-console.log(r);
+export default getImmutableObject;
